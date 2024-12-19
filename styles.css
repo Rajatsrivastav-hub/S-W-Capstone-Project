@@ -339,3 +339,63 @@ body {
     align-items: center;
 }
 
+@media (max-width: 1024px) {
+    .header-content {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .nav {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+        padding-left: 0.7rem;
+    }
+
+    .main {
+        padding: 2rem;
+    }
+
+    .content p {
+        font-size: 5rem;
+    }
+
+    .personal-tab .img {
+        width: 45%;
+    }
+
+    .personal-tab .row {
+        gap: 1rem;
+    }
+
+    .row img {
+        width: 100%;
+    }
+
+    .tagline {
+        margin-top: 6rem;
+    }
+
+    .greenleaf {
+        font-size: 2rem;
+        width: auto;
+        margin: 0 1rem;
+    }
+
+    .summary-container {
+        flex-direction: row;
+    }
+
+    .footer {
+        padding: 2rem 0;
+    }
+}
+
